@@ -38,3 +38,5 @@
 ##
 ### 결과물
 <img width="691" alt="Screenshot 2023-06-25 at 2 37 48 PM" src="https://github.com/pastel-blue/2021_bookathon/assets/88418078/f5ea732b-257e-4d9f-98d9-f6d2cfa9f130">
+
+최종 제출물은 문서에서 확인할 수 있다.
