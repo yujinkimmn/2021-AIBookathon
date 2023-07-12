@@ -36,7 +36,7 @@
     feeder는 training 시에 입력할 데이터를 추출하는 방법을 조정하는 모듈이고, 
     sampler는 inference 시에 샘플링할 token distribution을 조정하는 모듈로 top_k와 top_p 방식을 지원한다.
 
-    여기서 저희팀은, 학습할 때 토픽 모델링을 적용하기 위한 함수를 feeder에 추가하고, top_k와 top_p 방식 각각의 단점을 보완하기 위한 코드를 sampler에 추가하였다. 
+    우리팀은 학습할 때 토픽 모델링을 적용하기 위한 함수를 feeder에 추가하고, top_k와 top_p 방식 각각의 단점을 보완하기 위한 코드를 sampler에 추가하였다. 
     구체적으로, top_p inferring 결과 변수를 생성해 top_p에서 선택된 개수를 확인하고, 해당 개수가 top_k의 k개보다 작거나 같으면 top_p 결과를 리턴하고, 
     이보다 크면 결과값에 top_k inferring 알고리즘을 적용하게 된다.
 ##
